@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func unwind(segue: UIStoryboardSegue) {
+    }
+
+    @IBOutlet weak var nameField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +23,13 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // segueから遷移先のNameViewControllerを取得する
+        let nameViewController:NameViewController = segue.destination as! NameViewController
+        // nameViewControllerのnameプロパティにtextFieldの内容を代入する
+        nameViewController.name = nameField.text!
     }
 
 

@@ -12,6 +12,7 @@
 		C4F88C861E3DD8E800AE514D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F88C841E3DD8E800AE514D /* Main.storyboard */; };
 		C4F88C881E3DD8E800AE514D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F88C871E3DD8E800AE514D /* Assets.xcassets */; };
 		C4F88C8B1E3DD8E800AE514D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F88C891E3DD8E800AE514D /* LaunchScreen.storyboard */; };
+		C4F88C931E3DDA4D00AE514D /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F88C921E3DDA4D00AE514D /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C4F88C871E3DD8E800AE514D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4F88C8A1E3DD8E800AE514D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4F88C8C1E3DD8E800AE514D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F88C921E3DDA4D00AE514D /* NameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				C4F88C801E3DD8E800AE514D /* AppDelegate.swift */,
 				C4F88C821E3DD8E800AE514D /* ViewController.swift */,
 				C4F88C841E3DD8E800AE514D /* Main.storyboard */,
+				C4F88C921E3DDA4D00AE514D /* NameViewController.swift */,
 				C4F88C871E3DD8E800AE514D /* Assets.xcassets */,
 				C4F88C891E3DD8E800AE514D /* LaunchScreen.storyboard */,
 				C4F88C8C1E3DD8E800AE514D /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				C4F88C831E3DD8E800AE514D /* ViewController.swift in Sources */,
 				C4F88C811E3DD8E800AE514D /* AppDelegate.swift in Sources */,
+				C4F88C931E3DDA4D00AE514D /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
